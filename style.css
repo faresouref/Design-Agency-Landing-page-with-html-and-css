@@ -1,0 +1,786 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    z-index: 1000; /* Ensures nav is above other elements */
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    color: rgb(101, 160, 122);
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+nav p {
+    font-size: 8px;
+    letter-spacing: 4px;
+}
+
+nav .links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav .links ul li a {
+    color: white;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    margin-left: 15px;
+    color: rgb(101, 160, 122);
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(32, 31, 31);
+    background-size: cover;
+    /* padding: 100px 0; */
+}
+
+.paragraph-left {
+    width: 50%;
+    color: white;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+
+.paragraph-left h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.paragraph-left h1 span {
+    color: rgb(101, 160, 122);
+}
+
+.paragraph-left h3 {
+    color: rgb(101, 160, 152);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.line {
+    width: 120px;
+    height: 3px;
+    margin: 20px 0px;
+    background-color: rgb(28, 166, 106);
+}
+
+.line2{
+    width: 120px;
+    height: 1px;
+    margin: 20px 0px;
+    background-color: rgb(28, 166, 106);
+}
+
+.about{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 50px;
+}
+
+.icon_play{
+    font-size: 50px;
+    margin-right: 10px;
+    color: rgb(102, 178, 150);
+}
+
+.about_info p{
+    margin-top: 30px;
+    color: rgb(102, 178, 150) ;
+}
+/* end of section 1 */
+
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content_rignt{
+    width: 30%;
+}
+
+.section2 .content_rignt .adress{
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(102, 178, 150) ;
+    margin-bottom: 10px;
+
+}
+
+.section2 .content_rignt h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.section2 .content_rignt h1 span{
+    color: rgb(102, 178, 150) ;
+}
+
+
+.p2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.section2 .content_rignt  a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    background-color:rgb(102, 178, 150) ;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.section2 .content_left{
+    display: flex;
+    text-align: center;
+}
+
+.section2 .content_left img{
+    width: 50px;
+    padding-top: 12px;
+    margin-bottom: 10px;
+}
+
+.first_image{
+   margin: 10px;
+    width: 200px;
+    height: 180px;
+}
+
+.first_image h3{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.first_image p{
+    color: white;
+}
+
+.first2{
+    margin-top: -20px;
+}
+/* end of section 2 */
+
+
+.section3{
+    display: flex;
+    /* justify-content: space-around; */
+    padding-top: 100px ;
+    background-color: rgb(32, 31, 31);
+
+}
+
+.section3 .about_img img{
+    height: 70vh;
+    padding-left: 300px;
+}
+
+.section3 .about_right{
+    padding-right: 100px;
+    width: 40%;
+}
+
+.about_right .about_p{
+    color :rgb(102, 178, 150) ;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.about_right h1{
+    color: white;
+    font-size: 2.5rem;
+}
+
+.about_right h1  span{
+    color :rgb(102, 178, 150) ;
+}
+
+.about_right p{
+    color: rgb(93, 107, 108);
+}
+
+.last_icons .right{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.last_icons .right img{
+    width: 70px;
+    margin-right: 20px;
+}
+
+.last_icons{
+    margin-top: 20px;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.last_icons h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/* end of section 3 */
+
+.section4{
+    background: linear-gradient(red,green);
+}
+
+.container{
+    position: relative;
+
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(40, 125, 99, 0.5) 0%, rgba(93, 146, 98, 0.3) 30%);
+}
+
+.content{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 250px;
+}
+
+.content img{
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.content_reach{
+    margin-right: 200px;
+}
+
+.content h1{
+    color :rgb(110, 157, 140) ;
+    font-size: 2rem;
+}
+
+.content p{
+    color: white;
+}
+/* end of section 4 */
+
+
+
+.section5{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.latest_project{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+section .project_img img{
+    width: 400px;
+    height: 400px;
+}
+
+section .latest_project .project_content{
+    padding-left: 0px;
+    width: 800px;
+}
+
+section .latest_project .project_content .icon_project{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon_project .fa-solid{
+    padding-right: 20px;
+}
+
+.the_check{
+    padding-top: 30px;
+
+}
+
+.firsr_prof{
+    color :rgb(110, 157, 140) ;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.h1_rep{
+    color: white;
+    font-size: 3rem;
+}
+
+.section5 h1 span{
+    color :rgb(110, 157, 140) ;
+
+}
+
+.section5 .project_p{
+    color: rgb(98, 88, 88);
+}
+
+.section5 .icon_project p{
+    color: white;
+}
+
+.section5 .icon_project .fa-solid{
+    color :rgb(110, 157, 140) ;
+}
+
+.section5 .project_photots img{
+    width: 400px;
+    height: 400px;
+
+}
+
+.project_photots{
+    margin-left: 190px;
+}
+
+.the_content{
+    position: absolute;
+    top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+}
+
+.the_content img{
+    width: 300px;
+    margin-left: 50px;
+}
+
+/* end of projects section */
+
+.section6{
+    padding: 100px;
+    background-color: rgb(0, 0, 0);
+}
+.section6 img{
+    width: 400px;
+}
+
+.section6 .experience{
+    display: flex;
+}
+
+
+.section6 h1{
+    margin-bottom: 150px;
+}
+
+.section6 h1 span{
+    color :rgb(110, 157, 140) ;
+}
+
+.right_exper{
+    width: 50%;
+    margin-top: 30px;
+    position: relative;
+
+}
+
+.left_exper{
+    width: 50%;
+}
+
+.right_exper .mying{
+    position: absolute;
+    left: 37%;
+}
+
+
+
+.left_exper .p11{
+    color: rgb(114, 101, 101);
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.left_exper .icon_exper p{
+    color: white;
+}
+
+.icon_exper{
+    display: flex;
+}
+
+.left_exper .fa-solid {
+    margin-right: 20px;
+    color :rgb(110, 157, 140) ;
+    margin-bottom: 10px;
+}
+
+.allicons{
+    margin-bottom: 100px;
+}
+
+/* end of section 7 */
+
+
+
+.section7{
+    text-align: center;
+    padding: 100px;
+    background-color: black;
+}
+
+.section7 .line{
+    margin: 20px auto;
+}
+
+.p_latest{
+    color: rgb(116, 132, 132);
+}
+
+.latest_photos img{
+    width: 400px;
+    height: 400px;
+    margin: 5px;
+}
+
+/* end of section 7 */
+
+
+.section8 {
+    position: relative;
+    background:url(imagess\ 4/adadad.jpg)no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white; /* Set text color to white to ensure visibility */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.section8{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section8 .left_test {
+    position: relative;
+    z-index: 2; /* Ensure the paragraph appears over the overlay */
+    margin: 0; /* Optional: Adjust paragraph margin as needed */
+}
+
+.left_test{
+    position: relative;
+    z-index: 2;
+    width: 30%;
+}
+
+.left_test h1 span{
+    color :rgb(110, 157, 140) ;
+
+}
+
+.left_test .test_P{
+    color: rgb(87, 84, 81);
+    margin-bottom:50px ;
+}
+
+.left_test a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    background-color:rgb(134, 197, 174) ;
+
+}
+
+.right_test{
+    width: 40%;
+    background-color: rgba(16, 22, 20, 0.783);
+    padding: 20px;
+}
+
+.right_test img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.right_test .lower_p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_test p{
+    padding-bottom: 30px;
+}
+
+.its_name{
+    display: flex;
+}
+
+/* end of section 8 */
+
+
+
+
+
+.section9{
+    padding: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.upper_news{
+    text-align: center;
+}
+
+.section9 h1 span{
+    color :rgb(110, 157, 140) ;
+
+}
+
+.section9 .pppp{
+    color: rgb(196, 176, 176);
+    margin-bottom: 50px;
+}
+
+.lower_news img{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.lower_news{
+    width: 300px;
+    /* text-align: center; */
+}
+
+.lower_news h3{
+    color:rgb(74, 163, 131) ;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.lower_news .p2{
+    color: rgb(196, 176, 176);
+}
+
+.sec_icon{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.business{
+    padding-right: 60px;
+    display: flex;
+}
+
+.history{
+    display: flex;
+}
+
+.sec_icon .fa-solid{
+    margin-right: 10px;
+    color:rgb(74, 163, 131) ;
+}
+
+.lower_news{
+    display: flex;
+    margin-left: 130px;
+}
+
+.imgg_info{
+    margin-left: 40px;
+}
+
+/* end of section 9 */
+
+
+
+
+.section10{
+    padding: 100px;
+    background-color: rgb(31, 35, 34);
+}
+
+.right_navi{
+    margin-right: 20px;
+    margin-left: 120px;
+}
+
+.section10 label{
+    color:rgb(87, 164, 136) ;
+}
+
+.section10 form{
+    border: 2px solid rgb(99, 165, 143);
+    width: 320px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.161);
+    padding: 10px;
+}
+
+.section10 .input_from{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(99, 165, 143);
+    background-color: rgba(0, 0, 0, 0.127);
+    margin-top: 5px;
+}
+
+.section10 .input_from2{
+    border: 2px solid rgb(99, 165, 143);
+    background-color: rgba(0, 0, 0, 0.127);
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.section10 form a{
+    text-decoration: none;
+    padding: 10px 70px;
+    color: white;
+    background-color: rgb(79, 213, 187);
+    margin-bottom: 20px;
+}
+
+.section10 .leftnavi span{
+    color:rgb(74, 163, 131) ;
+    ;
+}
+
+.section10 {
+    display: flex;
+    align-items: center;
+}
+
+.leftnavi{
+    width: 600px;
+}
+
+.leftnavi .p_nav{
+    color: rgb(140, 151, 160);
+    margin-bottom: 20px;
+}
+
+.leftnavi .fa-solid {
+    font-size: 2.5rem;
+    margin-right: 20px;
+    color: rgb(62, 155, 112);
+}
+
+.leftnavi .office{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.leftnavi .office h2{
+    color: white;
+}
+
+.leftnavi .office p{
+    color: rgb(62, 155, 112);
+}
+
+/* end of section 10*/
+
+
+
+footer{
+    text-align: center;
+    background: linear-gradient( #000000, #4b655a); }
+
+footer h1{
+    padding-top: 100px;
+    color: rgb(62, 155, 141);
+    font-size: 3rem;
+}
+
+footer .p_agency{
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+footer .linkss a{
+    text-decoration: none;
+    color: rgb(62, 155, 141);
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.parfooter{
+    color: white;
+    width: 400px;
+    margin-left: 36%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.social_icons .fa-brands, .fa-solid {
+    color: rgb(62, 155, 141);
+    margin-right: 30px;
+    padding-bottom: 50px;
+}
+
+.thefooter{
+    box-shadow: 0 0 50px rgba(70, 164, 81, 0.5);}
